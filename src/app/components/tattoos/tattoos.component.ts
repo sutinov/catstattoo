@@ -79,8 +79,8 @@ export class TattoosComponent implements OnInit {
 
 const data = [
   {
-    srcUrl: '../../../assets/img/1.jpg',
-    previewUrl: '../../../assets/img/1.jpg',
+    srcUrl: 'assets/img/1.jpg',
+    previewUrl: 'assets/img/1.jpg',
   },
   {
     srcUrl: '../../../assets/img/2.jpg',
