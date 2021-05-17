@@ -79,47 +79,47 @@ export class TattoosComponent implements OnInit {
 
 const data = [
   {
-    srcUrl: '../../../assets/img/1.jpg',
-    previewUrl: '../../../assets/img/1.jpg',
+    srcUrl: 'assets/img/1.jpg',
+    previewUrl: 'assets/img/1.jpg',
   },
   {
-    srcUrl: '../../../assets/img/2.jpg',
-    previewUrl: '../../../assets/img/2.jpg',
+    srcUrl: 'assets/img/2.jpg',
+    previewUrl: 'assets/img/2.jpg',
   },
   {
-    srcUrl: '../../../assets/img/3.jpg',
-    previewUrl: '../../../assets/img/3.jpg',
+    srcUrl: 'assets/img/3.jpg',
+    previewUrl: 'assets/img/3.jpg',
   },
   {
-    srcUrl: '../../../assets/img/4.jpg',
-    previewUrl: '../../../assets/img/4.jpg',
+    srcUrl: 'assets/img/4.jpg',
+    previewUrl: 'assets/img/4.jpg',
   },
   {
-    srcUrl: '../../../assets/img/5.jpg',
-    previewUrl: '../../../assets/img/5.jpg',
+    srcUrl: 'assets/img/5.jpg',
+    previewUrl: 'assets/img/5.jpg',
   },
   {
-    srcUrl: '../../../assets/img/6.jpg',
-    previewUrl: '../../../assets/img/6.jpg',
+    srcUrl: 'assets/img/6.jpg',
+    previewUrl: 'assets/img/6.jpg',
   },
   {
-    srcUrl: '../../../assets/img/7.jpg',
-    previewUrl: '../../../assets/img/7.jpg',
+    srcUrl: 'assets/img/7.jpg',
+    previewUrl: 'assets/img/7.jpg',
   },
   {
-    srcUrl: '../../../assets/img/8.jpg',
-    previewUrl: '../../../assets/img/8.jpg',
+    srcUrl: 'assets/img/8.jpg',
+    previewUrl: 'assets/img/8.jpg',
   },
   {
-    srcUrl: '../../../assets/img/9.jpg',
-    previewUrl: '../../../assets/img/9.jpg',
+    srcUrl: 'assets/img/9.jpg',
+    previewUrl: 'assets/img/9.jpg',
   },
   {
-    srcUrl: '../../../assets/img/10.jpg',
-    previewUrl: '../../../assets/img/10.jpg',
+    srcUrl: 'assets/img/10.jpg',
+    previewUrl: 'assets/img/10.jpg',
   },
   {
-    srcUrl: '../../../assets/img/11.jpg',
-    previewUrl: '../../../assets/img/11.jpg',
+    srcUrl: 'assets/img/11.jpg',
+    previewUrl: 'assets/img/11.jpg',
   },
 ];
