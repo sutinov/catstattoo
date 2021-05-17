@@ -12,12 +12,6 @@ import { TattoosComponent } from './components/tattoos/tattoos.component';
 
 const routes: Routes = [
   {
-    path: '',
-    redirectTo: '/home',
-    pathMatch: 'full',
-  },
-
-  {
     path: 'tattoos',
     component: TattoosComponent,
   },
@@ -30,8 +24,13 @@ const routes: Routes = [
     component: ArtistComponent,
   },
   {
-    path: 'home',
+    path: '',
     component: HomeComponent,
+  },
+  {
+    path: '',
+    redirectTo: '/home',
+    pathMatch: 'full',
   },
 ];
 
