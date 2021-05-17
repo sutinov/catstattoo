@@ -1,0 +1,35 @@
+<div class="fullscreen-bg">
+  <video
+    loop
+    muted
+    autoplay
+    [volume]="0.0"
+    class="fullscreen-bg__video"
+    id="video"
+    oncanplay="this.play()"
+    onloadedmetadata="this.muted"
+  >
+    <source src="../../../assets/Tattoo.mp4" type="video/mp4" />
+  </video>
+  <div class="text">
+    <h1>Cat's</h1>
+    <h3>Tattoo Studio</h3>
+    <button
+      routerLink="/tattoos"
+      class="buttons"
+      mat-flat-button
+      routerLinkActive="active"
+    >
+      <span></span> Gallery
+    </button>
+    <button routerLink="/artist" class="buttons" mat-flat-button>
+      <span></span> About me
+    </button>
+    <button routerLink="/contact" class="buttons" mat-flat-button>
+      <span></span> Contact
+    </button>
+  </div>
+  <div class="buttons"></div>
+</div>
+
+<router-outlet></router-outlet>

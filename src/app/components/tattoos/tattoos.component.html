@@ -1,0 +1,10 @@
+<div class="basic-container">
+  <h2>Cat's Tattoo Gallery</h2>
+  <p class="container" gallerize>
+    <img
+      class="gallery-img"
+      *ngFor="let img of imageData"
+      [src]="img.previewUrl"
+    />
+  </p>
+</div>
