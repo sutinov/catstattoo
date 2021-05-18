@@ -122,4 +122,8 @@ const data = [
     srcUrl: 'assets/img/11.jpg',
     previewUrl: 'assets/img/11.jpg',
   },
+  {
+    srcUrl: 'assets/img/12.jpg',
+    previewUrl: 'assets/img/12.jpg',
+  },
 ];
